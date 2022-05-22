@@ -1,0 +1,4 @@
+include ':app', ':module-home', ':library-base'
+rootProject.name='Launcher'
+
+include ':module-systemui'
