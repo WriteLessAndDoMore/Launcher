@@ -6,21 +6,54 @@
     <data>
 
     </data>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
-
-        <androidx.viewpager.widget.ViewPager
-            android:id="@+id/home_view_pager"
+        android:background="#373636"
+        android:orientation="vertical">
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="433px"
-            android:layout_marginTop="161px" />
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            tools:context=".MainActivity">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_account_circle_24"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="未登录"
+                    android:textSize="20sp"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="30dp"
 
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/home_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/ll_doc"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            >
 
-
-
+        </LinearLayout>
     </LinearLayout>
+
 </layout>

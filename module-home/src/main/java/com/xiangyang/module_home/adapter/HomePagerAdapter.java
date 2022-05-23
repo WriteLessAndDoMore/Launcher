@@ -12,11 +12,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HomePagerAdapter extends FragmentPagerAdapter {
-   private List<Fragment> list = new ArrayList<>();
-   public HomePagerAdapter(@NonNull FragmentManager fm) {
+   private List<Fragment> list;
+
+
+   public HomePagerAdapter(@NonNull FragmentManager fm, List<Fragment> list) {
       super(fm);
-      list.add(new FirstPageFragment());
-      list.add(new SecondPageFragment());
+      this.list = list;
    }
 
    @NonNull
