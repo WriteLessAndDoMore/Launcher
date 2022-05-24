@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
@@ -16,6 +17,7 @@ import android.widget.LinearLayout;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.xiangyang.module_home.adapter.HomePagerAdapter;
 import com.xiangyang.module_home.databinding.ActivityMainBinding;
+import com.xiangyang.module_home.util.AppViewModelFactory;
 import com.xiangyang.module_home.view.FirstPageFragment;
 import com.xiangyang.module_home.view.SecondPageFragment;
 

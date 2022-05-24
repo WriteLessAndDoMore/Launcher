@@ -12,31 +12,82 @@
         android:orientation="horizontal"
         tools:context=".view.FirstPageFragment">
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#fff"
             android:layout_weight="1"
             android:layout_marginLeft="20dp">
-
+            <com.xiangyang.module_home.customerview.HomeMediaCard
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#fff"
             android:layout_weight="1"
             android:layout_marginLeft="20dp">
-
+            <com.xiangyang.module_home.customerview.HomeSoundCard
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#fff"
             android:layout_weight="1"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:orientation="vertical"
             >
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="天气"
+                        android:textSize="20sp"
+                        android:textColor="#fff"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0f0"
+                android:layout_marginTop="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#000">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="电话"
+                        android:textSize="20sp"
+                        android:textColor="#fff"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#000"
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="我的车"
+                        android:textSize="10sp"
+                        android:textColor="#fff"/>
+                </LinearLayout>
+            </LinearLayout>
         </LinearLayout>
-
     </LinearLayout>
 </layout>
