@@ -7,6 +7,7 @@
         <variable
             name="appInfo"
             type="com.xiangyang.module_home.viewmodel.AppListViewModel" />
+        <import type="me.tatarka.bindingcollectionadapter2.LayoutManagers" />
 
     </data>
 
@@ -20,11 +21,9 @@
             android:id="@+id/install_app_recyclerview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="304px"
-            android:layout_marginTop="185px"
-            binding:itemBinding="@{appInfo.installedItemBinding}"
-            binding:items="@{appInfo.installAppList}"
-            binding:layoutManager="@{LayoutManagers.grid(5)}" />
+            binding:itemBinding="@{appInfo.itemBinding}"
+            binding:items="@{appInfo.defaultAppList}"
+            binding:layoutManager="@{LayoutManagers.grid(6)}" />
 
     </RelativeLayout>
 </layout>

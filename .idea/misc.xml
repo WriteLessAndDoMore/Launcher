@@ -9,6 +9,7 @@
         <entry key="..\:/course/Android/Launcher/app/src/main/res/layout/activity_sencond.xml" value="0.25" />
         <entry key="..\:/course/Android/Launcher/module-home/src/main/res/layout/activity_main.xml" value="0.152" />
         <entry key="..\:/course/Android/Launcher/module-systemui/src/main/res/layout/activity_main.xml" value="0.10696266397578204" />
+        <entry key="module-home/src/main/res/drawable/card_media_bg_pre.xml" value="0.1915" />
         <entry key="module-home/src/main/res/drawable/doc_check.xml" value="0.2235" />
         <entry key="module-home/src/main/res/drawable/doc_uncheck.xml" value="0.2235" />
         <entry key="module-home/src/main/res/drawable/dot_normal.xml" value="0.214" />
@@ -18,7 +19,7 @@
         <entry key="module-home/src/main/res/layout/fragment_first_page.xml" value="0.1" />
         <entry key="module-home/src/main/res/layout/fragment_second_page.xml" value="0.3333333333333333" />
         <entry key="module-home/src/main/res/layout/home_app_item.xml" value="0.16210739614994935" />
-        <entry key="module-home/src/main/res/layout/home_media_card.xml" value="0.15" />
+        <entry key="module-home/src/main/res/layout/home_media_card.xml" value="0.1" />
         <entry key="module-home/src/main/res/layout/home_sound_card.xml" value="0.1" />
       </map>
     </option>
@@ -33,7 +34,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.128" />
+        <option name="scale" value="0.1" />
       </ProjectState>
     </option>
   </component>

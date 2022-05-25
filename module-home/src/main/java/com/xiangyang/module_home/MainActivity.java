@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
@@ -25,7 +26,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Route(path = "/home/MainActivity")
-public class MainActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener{
+public class MainActivity extends FragmentActivity implements ViewPager.OnPageChangeListener{
 
     private HomePagerAdapter mPagerAdapter;
     private ActivityMainBinding mBinding;

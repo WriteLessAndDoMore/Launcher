@@ -9,11 +9,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#373636"
+        android:background="#000000"
         android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="100dp"
             android:orientation="horizontal"
             tools:context=".MainActivity">
             <RelativeLayout
@@ -41,18 +41,20 @@
             <androidx.viewpager.widget.ViewPager
                 android:id="@+id/home_view_pager"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="500dp" />
         </LinearLayout>
-
         <LinearLayout
-            android:id="@+id/ll_doc"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            >
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center">
 
+            <LinearLayout
+                android:id="@+id/ll_doc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"/>
         </LinearLayout>
     </LinearLayout>
 

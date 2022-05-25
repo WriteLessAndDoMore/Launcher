@@ -20,7 +20,9 @@
             android:layout_width="144px"
             android:layout_height="144px"
             android:layout_gravity="center_horizontal"
-            android:background="@{itemViewModel.appIcon}" />
+            android:background="@{itemViewModel.appIcon}"
+            android:onClick="@{()->itemViewModel.itemClick}"
+            />
 
         <TextView
             android:id="@+id/app_text"

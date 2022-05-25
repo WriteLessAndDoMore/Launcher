@@ -19,7 +19,8 @@
             android:layout_marginLeft="20dp">
             <com.xiangyang.module_home.customerview.HomeMediaCard
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:background="@drawable/card_media_bg_pressed"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"

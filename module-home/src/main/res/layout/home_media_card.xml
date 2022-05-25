@@ -7,37 +7,47 @@
         android:layout_height="match_parent">
         <ImageView
             android:id="@+id/iv_music_icon"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:background="#000"/>
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/icon_kuwo"/>
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="26sp"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:textSize="30sp"
             android:text="酷我音乐"
-            android:layout_marginLeft="50dp"/>
+            android:layout_marginLeft="58dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_centerInParent="true">
-            <ImageView
+            android:layout_centerInParent="true"
+            android:gravity="center">
+            <RelativeLayout
                 android:id="@+id/iv_singCon"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="#000"/>
+                android:layout_width="290dp"
+                android:layout_height="200dp"
+                android:background="@drawable/card_record">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="#000"/>
+            </RelativeLayout>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_width="500dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:layout_marginTop="44dp"
+                android:textSize="36sp"
                 android:text="初学者" />
         </LinearLayout>
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp">
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_alignLeft="@+id/iv_play"
                 />
