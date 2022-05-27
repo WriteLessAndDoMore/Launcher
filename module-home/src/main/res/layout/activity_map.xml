@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        tools:context=".MapActivity">
+
+        <RelativeLayout
+            android:layout_width="1000dp"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bottom_background_gradient">
+            <ImageView
+                android:id="@+id/iv_button_launch"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_launch_pressed"
+                />
+            <ImageView
+                android:id="@+id/iv_radio_icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/icon_radio"
+                android:layout_toRightOf="@id/iv_button_launch"
+                android:layout_centerInParent="true"
+                />
+            <TextView
+                android:id="@+id/tv_radio_title"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/iv_radio_icon"
+                android:layout_marginLeft="10dp"
+                tools:text="FM108.7MHZ"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="#fff"
+                />
+            <ImageView
+                android:id="@+id/iv_button_bar_play"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_bar_play"
+                android:layout_toRightOf="@id/tv_radio_title"
+                android:layout_marginLeft="30dp"
+                android:layout_centerInParent="true"/>
+            <ImageView
+                android:id="@+id/iv_button_bar_next"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_bar_next"
+                android:layout_toRightOf="@id/iv_button_bar_play"
+                android:layout_marginLeft="50dp"
+                android:layout_centerInParent="true"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>
