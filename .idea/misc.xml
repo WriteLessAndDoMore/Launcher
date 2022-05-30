@@ -21,10 +21,14 @@
         <entry key="module-home/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="module-home/src/main/res/layout/activity_map.xml" value="0.1" />
         <entry key="module-home/src/main/res/layout/fragment_first_page.xml" value="0.1" />
-        <entry key="module-home/src/main/res/layout/fragment_second_page.xml" value="0.3333333333333333" />
+        <entry key="module-home/src/main/res/layout/fragment_second_page.xml" value="0.30375" />
         <entry key="module-home/src/main/res/layout/home_app_item.xml" value="0.1" />
         <entry key="module-home/src/main/res/layout/home_media_card.xml" value="0.1" />
         <entry key="module-home/src/main/res/layout/home_sound_card.xml" value="0.1" />
+        <entry key="module-systemui/src/main/res/drawable/panel_view_seek_bar_progress.xml" value="0.2035" />
+        <entry key="module-systemui/src/main/res/drawable/quick_settings_seekbar_thumb.xml" value="0.2035" />
+        <entry key="module-systemui/src/main/res/layout/activity_main.xml" value="0.10677083333333333" />
+        <entry key="module-systemui/src/main/res/layout/systemui_quick_setting_layout.xml" value="0.14583333333333334" />
         <entry key="module-systemui/src/main/res/layout/systemui_status_bar_clock.xml" value="0.16584158415841585" />
         <entry key="module-systemui/src/main/res/layout/systemui_status_bar_layout.xml" value="0.16210739614994935" />
         <entry key="module-systemui/src/main/res/layout/systemui_status_bar_window.xml" value="0.14377062706270627" />

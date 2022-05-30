@@ -32,37 +32,39 @@
         <com.xiangyang.module_systemui.view.Clock
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="22dp"
             />
         <ImageView
             android:id="@+id/iv_icon_mute"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="12dp"
+            android:layout_marginEnd="22dp"
             android:src="@mipmap/icon_mute"
             />
         <ImageView
             android:id="@+id/iv_icon_usb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="12dp"
+            android:layout_marginEnd="22dp"
             android:src="@mipmap/icon_usb"
             />
         <ImageView
             android:id="@+id/iv_icon_bt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="12dp"
+            android:layout_marginEnd="22dp"
             android:src="@mipmap/icon_blueteeth"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="3"
+            android:textColor="#fff"
             android:textSize="36sp"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="12dp"
+            android:layout_marginEnd="22dp"
             android:src="@mipmap/icon_air"
             />
         <TextView

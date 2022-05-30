@@ -14,8 +14,6 @@ import android.view.ViewGroup;
 
 import com.xiangyang.module_home.R;
 import com.xiangyang.module_home.databinding.FragmentSecondPageBinding;
-import com.xiangyang.module_home.databinding.HomeAppItemBinding;
-import com.xiangyang.module_home.databinding.HomeSoundCardBinding;
 import com.xiangyang.module_home.util.AppViewModelFactory;
 import com.xiangyang.module_home.viewmodel.AppListViewModel;
 

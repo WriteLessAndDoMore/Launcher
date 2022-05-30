@@ -12,8 +12,8 @@
         android:orientation="horizontal"
         tools:context=".view.FirstPageFragment">
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="550dp"
+            android:layout_height="500dp"
             android:background="#fff"
             android:layout_weight="1"
             android:layout_marginLeft="20dp">
@@ -23,8 +23,8 @@
                 android:background="@drawable/card_media_bg_pressed"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="550dp"
+            android:layout_height="500dp"
             android:background="#fff"
             android:layout_weight="1"
             android:layout_marginLeft="20dp">
@@ -33,8 +33,8 @@
                 android:layout_height="match_parent"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="550dp"
+            android:layout_height="500dp"
             android:background="#fff"
             android:layout_weight="1"
             android:layout_marginLeft="20dp"

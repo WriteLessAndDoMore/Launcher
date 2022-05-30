@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiangyang.module_systemui.view.QuickSettingView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:ignore="MissingDefaultResource">
+
+
+    <!--    <include-->
+    <!--        layout="@layout/systemui_status_bar_layout"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="88dp"-->
+    <!--        android:layout_alignParentTop="true" />-->
+
+
+<!--    <View-->
+<!--        android:id="@+id/qs_outside"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+
+
+    <RelativeLayout
+        android:id="@+id/quick_status_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="156dp"
+        android:layout_height="36dp"
+        android:text="05月30日"
+        android:textSize="32sp"
+        skin:enable="true" />
+
+    <LinearLayout
+        android:id="@+id/quick_settings_title_high_config"
+        android:layout_width="1730dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="103dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/close_high_config"
+            android:layout_width="330dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="106dp"
+            skin:enable="true">
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="114dp"
+                android:background="@drawable/button_close"/>
+            <TextView
+                android:layout_width="127dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:text="关屏"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wifi_high_config"
+            android:layout_width="330dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="2dp"
+            skin:enable="true">
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="114dp"
+                android:background="@drawable/button_close"/>
+            <TextView
+                android:layout_width="127dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:text="关屏"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bt_high_config"
+            android:layout_width="330dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="2dp"
+            skin:enable="true">
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="114dp"
+                android:background="@drawable/button_close"/>
+            <TextView
+                android:layout_width="127dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:text="关屏"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/day_high_config"
+            android:layout_width="330dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="2dp"
+            skin:enable="true">
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="114dp"
+                android:background="@drawable/button_close"/>
+            <TextView
+                android:layout_width="127dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:text="关屏"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/voice_high_config"
+            android:layout_width="330dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="2dp"
+            skin:enable="true">
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="114dp"
+                android:background="@drawable/button_close"/>
+            <TextView
+                android:layout_width="127dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:text="关屏"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="1730dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="106dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/light_bg">
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="30dp"
+            android:src="@mipmap/icon_brightness_medium" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="亮度"
+            android:layout_marginStart="26dp"
+            android:textSize="30sp"/>
+        <SeekBar
+            android:id="@+id/panel_view_brightness"
+            android:layout_width="1480dp"
+            android:layout_height="40dp"
+            android:maxHeight="8dp"
+            android:minHeight="8dp"
+            android:progress="100"
+            android:progressDrawable="@drawable/panel_view_seek_bar_progress"
+            android:splitTrack="false"
+            android:thumb="@drawable/slide"
+            android:thumbOffset="30dp"
+            skin:enable="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="1730dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="106dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="855dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@drawable/light_bg">
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="30dp"
+                android:src="@mipmap/icon_brightness_medium" />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="亮度"
+                android:layout_marginStart="26dp"
+                android:textSize="30sp"/>
+            <SeekBar
+                android:id="@+id/sk_panel_view_nav_voice"
+                android:layout_width="605dp"
+                android:layout_height="40dp"
+                android:maxHeight="8dp"
+                android:minHeight="8dp"
+                android:progress="100"
+                android:progressDrawable="@drawable/panel_view_seek_bar_progress"
+                android:splitTrack="false"
+                android:thumb="@drawable/slide"
+                android:thumbOffset="30dp"
+                skin:enable="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="855dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@drawable/light_bg"
+            android:layout_marginStart="20dp">
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="30dp"
+                android:src="@mipmap/icon_brightness_medium" />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="亮度"
+                android:layout_marginStart="26dp"
+                android:textSize="30sp"/>
+            <SeekBar
+                android:id="@+id/sk_panel_view_phone_voice"
+                android:layout_width="605dp"
+                android:layout_height="40dp"
+                android:maxHeight="8dp"
+                android:minHeight="8dp"
+                android:progress="100"
+                android:progressDrawable="@drawable/panel_view_seek_bar_progress"
+                android:splitTrack="false"
+                android:thumb="@drawable/slide"
+                android:thumbOffset="30dp"
+                skin:enable="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="1730dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="106dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="855dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@drawable/light_bg">
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="30dp"
+                android:src="@mipmap/icon_brightness_medium" />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="亮度"
+                android:layout_marginStart="26dp"
+                android:textSize="30sp"/>
+            <SeekBar
+                android:id="@+id/sk_panel_view_media_voice"
+                android:layout_width="605dp"
+                android:layout_height="40dp"
+                android:maxHeight="8dp"
+                android:minHeight="8dp"
+                android:progress="100"
+                android:progressDrawable="@drawable/panel_view_seek_bar_progress"
+                android:splitTrack="false"
+                android:thumb="@drawable/slide"
+                android:thumbOffset="30dp"
+                skin:enable="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="855dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@drawable/light_bg"
+            android:layout_marginStart="20dp">
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="30dp"
+                android:src="@mipmap/icon_brightness_medium" />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="亮度"
+                android:layout_marginStart="26dp"
+                android:textSize="30sp"/>
+            <SeekBar
+                android:id="@+id/sk_panel_view_source_voice"
+                android:layout_width="605dp"
+                android:layout_height="40dp"
+                android:maxHeight="8dp"
+                android:minHeight="8dp"
+                android:progress="100"
+                android:progressDrawable="@drawable/panel_view_seek_bar_progress"
+                android:splitTrack="false"
+                android:thumb="@drawable/slide"
+                android:thumbOffset="30dp"
+                skin:enable="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="200dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginStart="860dp"
+        android:background="#FFFFFFFF"/>
+
+
+
+</com.xiangyang.module_systemui.view.QuickSettingView>
+
