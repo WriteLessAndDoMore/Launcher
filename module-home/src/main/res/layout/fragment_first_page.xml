@@ -9,82 +9,97 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        tools:context=".view.FirstPageFragment">
+        android:orientation="horizontal">
         <LinearLayout
-            android:layout_width="550dp"
-            android:layout_height="500dp"
+            android:layout_width="550px"
+            android:layout_height="500px"
             android:background="#fff"
-            android:layout_weight="1"
-            android:layout_marginLeft="20dp">
+
+            android:layout_marginLeft="60px">
             <com.xiangyang.module_home.customerview.HomeMediaCard
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/card_media_bg_pressed"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_width="550dp"
-            android:layout_height="500dp"
+            android:layout_width="550px"
+            android:layout_height="500px"
             android:background="#fff"
-            android:layout_weight="1"
-            android:layout_marginLeft="20dp">
+            android:layout_marginLeft="60px">
             <com.xiangyang.module_home.customerview.HomeSoundCard
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:background="@drawable/card_media_bg_pressed"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_width="550dp"
-            android:layout_height="500dp"
-            android:background="#fff"
-            android:layout_weight="1"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:orientation="vertical"
-            >
+            android:layout_width="550px"
+            android:layout_height="500px"
+            android:layout_marginLeft="60px"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="550px"
+                android:layout_height="220px"
+                android:background="@drawable/card_weather_bg_pressed">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="天气"
+                    android:layout_marginStart="14px"
+                    android:layout_marginTop="10px"
+                    android:textColor="#fff"
+                    android:textSize="30sp" />
+                <ImageView
+                    android:layout_width="154px"
+                    android:layout_height="160px"
+                    android:src="@mipmap/icon_partlycloudy"
+                    android:layout_marginTop="60px"
+                    android:layout_marginStart="91px" />
+                <TextView
+                    android:layout_width="109px"
+                    android:layout_height="80px"
+                    android:text="23°"
+                    android:textSize="72px"
+                    android:layout_marginStart="305px"
+                    android:layout_marginTop="40px" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="晴转多云"
+                    android:textSize="36px"
+                    android:layout_marginStart="305px"
+                    android:layout_marginTop="136px"
+                    />
+            </RelativeLayout>
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1">
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="#000">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="天气"
-                        android:textSize="20sp"
-                        android:textColor="#fff"/>
-                </RelativeLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_marginTop="20dp">
+                android:layout_width="550px"
+                android:layout_height="220px"
+                android:layout_marginTop="60px">
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="245px"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="#000">
+                    android:background="@drawable/card_phone_bg_pressed">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="14px"
+                        android:layout_marginTop="10px"
                         android:text="电话"
-                        android:textSize="20sp"
+                        android:textSize="30sp"
                         android:textColor="#fff"/>
+
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="245px"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="#000"
-                    android:layout_marginLeft="20dp">
+                    android:background="@drawable/app_air"
+                    android:layout_marginLeft="64px">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="我的车"
-                        android:textSize="10sp"
+                        android:layout_marginStart="14px"
+                        android:layout_marginTop="10px"
+                        android:text="空调"
+                        android:textSize="30sp"
                         android:textColor="#fff"/>
                 </LinearLayout>
             </LinearLayout>

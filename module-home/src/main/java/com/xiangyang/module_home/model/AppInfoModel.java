@@ -42,9 +42,9 @@ public class AppInfoModel {
             Drawable icon = resolveInfo.loadIcon(packageManager);
             String title = resolveInfo.loadLabel(packageManager).toString();
             String packageName = resolveInfo.activityInfo.packageName;
-//            Log.d(TAG, "title: " + title);
-            Log.d(TAG, "packageName: " + packageName);
-            Log.d(TAG, "icon: " + icon);
+            Log.d(TAG, "title: " + title);
+//            Log.d(TAG, "packageName: " + packageName);
+//            Log.d(TAG, "icon: " + icon);
 
 //            LogUtils.d("title = " + title + ",packageName = " + packageName);
             AppInfo appInfo = new AppInfo();

@@ -62,7 +62,7 @@ public class MainActivity extends FragmentActivity implements ViewPager.OnPageCh
         listDoc = new ArrayList<ImageView>();
 
         llDoc = mBinding.llDoc;
-        for (int i = 0; i < listFragment.size()+1; i++) {
+        for (int i = 0; i < listFragment.size(); i++) {
 
             ImageView iv = new ImageView(this);
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams

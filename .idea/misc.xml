@@ -13,6 +13,8 @@
         <entry key="module-home/src/main/res/drawable/button_launch_pressed.xml" value="0.2405" />
         <entry key="module-home/src/main/res/drawable/card_app_bg_pressed.xml" value="0.293" />
         <entry key="module-home/src/main/res/drawable/card_media_bg_pre.xml" value="0.1915" />
+        <entry key="module-home/src/main/res/drawable/card_phone_bg_pressed.xml" value="0.204" />
+        <entry key="module-home/src/main/res/drawable/card_weather_bg_pressed.xml" value="0.204" />
         <entry key="module-home/src/main/res/drawable/doc_check.xml" value="0.2235" />
         <entry key="module-home/src/main/res/drawable/doc_uncheck.xml" value="0.2235" />
         <entry key="module-home/src/main/res/drawable/dot_normal.xml" value="0.214" />
@@ -28,7 +30,7 @@
         <entry key="module-systemui/src/main/res/drawable/panel_view_seek_bar_progress.xml" value="0.2035" />
         <entry key="module-systemui/src/main/res/drawable/quick_settings_seekbar_thumb.xml" value="0.2035" />
         <entry key="module-systemui/src/main/res/layout/activity_main.xml" value="0.10677083333333333" />
-        <entry key="module-systemui/src/main/res/layout/systemui_quick_setting_layout.xml" value="0.14583333333333334" />
+        <entry key="module-systemui/src/main/res/layout/systemui_quick_setting_layout.xml" value="0.1" />
         <entry key="module-systemui/src/main/res/layout/systemui_status_bar_clock.xml" value="0.16584158415841585" />
         <entry key="module-systemui/src/main/res/layout/systemui_status_bar_layout.xml" value="0.16210739614994935" />
         <entry key="module-systemui/src/main/res/layout/systemui_status_bar_window.xml" value="0.14377062706270627" />

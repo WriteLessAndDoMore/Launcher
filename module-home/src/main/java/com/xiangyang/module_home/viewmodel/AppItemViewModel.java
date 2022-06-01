@@ -9,7 +9,6 @@ import androidx.databinding.ObservableField;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.xiangyang.library_base.binding.command.BindingCommand;
 import com.xiangyang.library_base.utils.LogUtils;
-import com.xiangyang.module_home.databinding.HomeAppItemBinding;
 import com.xiangyang.module_home.model.AppInfo;
 
 public class AppItemViewModel {

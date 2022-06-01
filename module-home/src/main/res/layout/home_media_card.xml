@@ -3,64 +3,77 @@
 
     <RelativeLayout
         android:id="@+id/app_card"
-        android:layout_width="550dp"
-        android:layout_height="500dp">
+        android:layout_width="550px"
+        android:layout_height="500px">
         <ImageView
             android:id="@+id/iv_music_icon"
-            android:layout_width="38dp"
-            android:layout_height="38dp"
-            android:src="@drawable/icon_kuwo"/>
+            android:layout_width="38px"
+            android:layout_height="38px"
+            android:layout_marginStart="10px"
+            android:layout_marginTop="10px"
+            android:src="@mipmap/icon_kuwo"/>
         <TextView
-            android:layout_width="120dp"
-            android:layout_height="30dp"
+            android:layout_width="120px"
+            android:layout_height="36px"
             android:textSize="30sp"
             android:text="酷我音乐"
-            android:layout_marginLeft="58dp"/>
+            android:layout_marginStart="58px"
+            android:layout_marginTop="8px"/>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_centerInParent="true"
-            android:gravity="center">
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="74px"
+            android:gravity="center"
+            android:orientation="vertical">
+
             <RelativeLayout
                 android:id="@+id/iv_singCon"
-                android:layout_width="290dp"
-                android:layout_height="200dp"
+                android:layout_width="290px"
+                android:layout_height="200px"
                 android:background="@drawable/card_record">
+
                 <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:background="#000"/>
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:background="#000" />
             </RelativeLayout>
 
             <TextView
-                android:layout_width="500dp"
-                android:layout_height="36dp"
+                android:layout_width="500px"
+                android:layout_height="45px"
+                android:layout_marginTop="30px"
                 android:gravity="center"
-                android:layout_marginTop="44dp"
-                android:textSize="36sp"
-                android:text="初学者" />
+                android:text="初学者-薛之谦"
+                android:textSize="36px" />
         </LinearLayout>
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="70px"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="40dp">
+            android:layout_marginBottom="35px">
+
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/iv_play"
-                />
+                android:id="@+id/iv_pre"
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_toLeftOf="@+id/iv_play"
+                android:layout_marginRight="60px"
+                android:src="@drawable/button_bar_last" />
+
             <ImageView
                 android:id="@+id/iv_play"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="70px"
+                android:layout_height="70px"
                 android:layout_centerInParent="true"
-                />
+                android:src="@drawable/button_bar_play" />
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignRight="@+id/iv_play"/>
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_toRightOf="@+id/iv_play"
+                android:src="@drawable/button_bar_next"
+                android:layout_marginLeft="60px"/>
         </RelativeLayout>
 
 
